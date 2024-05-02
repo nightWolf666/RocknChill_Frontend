@@ -4,7 +4,7 @@ import Intropage from "./pages/Intropage.jsx";
 import Login from "./pages/Login.jsx";
 import Profil from "./pages/Profil.jsx";
 import Register from "./pages/Register.jsx";
-import Event from "./pages/Event.jsx";
+import Event_Create from "./pages/Event_Create.jsx";
 import Event_Detail from "./pages/Event_Detail.jsx";
 import { useFetch } from "./hooks/useFetch.js";
 import Dashboard from "./pages/Dashboard.jsx";
@@ -25,7 +25,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/event" element={<Event />} />
+              <Route path="/event_create" element={<Event_Create />} />
               <Route path="/event_detail" element={<Event_Detail />} />
               <Route path="/profil" element={<Profil />} />
               

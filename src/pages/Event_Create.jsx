@@ -6,7 +6,7 @@ import Button from "../ui/Button.jsx";
 import HomeButton from '../assets/icons/Logo.png';
 import Background from '../assets/background/Background_Strand.png';
 
-function Event() {
+function Event_Create() {
 
   const { setBackgroundImage } = useBackgroundImage();
   const [user, setUser] = useState([]);
@@ -30,4 +30,4 @@ function Event() {
   )
 }
 
-export default Event;
+export default Event_Create;
